@@ -1,0 +1,38 @@
+.login{
+    position: relative;
+    background-color: black;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.login > h2{
+    color:white !important;
+    margin-top: 50px;
+}
+.login__continers{
+    position: absolute; 
+    bottom: 30%;
+    display: flex;
+    width: 400px;
+    background-color:white;
+    flex-direction: column;
+}
+
+.login__button{
+    color:white;
+    
+}
+
+.logo__w{
+    position: absolute;
+    top: 10%;
+}
+.logo__w > img{ 
+    background-color: black;
+    margin-bottom: 30px;
+    
+    height: 250px;
+}

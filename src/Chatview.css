@@ -1,0 +1,22 @@
+.chatView{
+    position: relative;
+
+}
+
+.chatView__back{
+    position: absolute;
+    left: 0;
+    color: white !important;
+}
+
+
+.chatView__timer{
+    position:absolute;
+    top: 0;
+    right: 0;
+    padding: 3px;
+}
+.comments{
+    display: flex;
+    flex-direction: row;
+}

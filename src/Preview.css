@@ -1,0 +1,32 @@
+.preview{
+    position:relative
+}
+
+.preview__close{
+    position: absolute;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.preview__bottom{
+    position: absolute;
+    bottom: 0;
+    right: -25px;
+    background-color: yellow;
+    transform: translate(-50%,-50%);
+    color:black;
+    display:flex;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    padding: 7px;
+}
+
+.preview__bottom >h3{
+    font-size: 15px;
+    margin-right: 3px;
+}
+
+.preview__send{
+    font-size: 10px im !important;
+}
